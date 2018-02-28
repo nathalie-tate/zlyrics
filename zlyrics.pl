@@ -44,6 +44,7 @@ $output =~ s/<\/i>//g;
 $output =~ s/<b>//g;
 $output =~ s/<\/b>//g;
 $output =~ s/<br>//g;
+$output =~ s/&quot;/"/g;
 $output =~ s/<!-- Usage of azlyrics.com content by any third-party lyrics provider is prohibited by our licensing agreement. Sorry about that. -->//;
 
 print $output;
